@@ -1,2 +1,2 @@
-# javascript_the_good_parts
-Random learnings from JavaScript: The Good Parts
+# JavaScript: The Good Parts
+## Random learnings from JavaScript: The Good Parts
