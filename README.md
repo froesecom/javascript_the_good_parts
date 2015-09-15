@@ -9,8 +9,17 @@
  > JavaScript is built on some very good ideas and a few very bad ones.
  >The very good ideas include functions, loose typing, dynamic objects, and an expressive object literal notation. The bad ideas inclue a programming model based on global variables.
 
- ##Chapter 2: Grammar
+ ## Chapter 2: Grammar
 
  JavaScript has a single number type and there is no seperate integer type, so 1 and 1.0 are the same. According to Crockford, this is a good thing because problems of overflow of short integers are avoided, and all you need to know is that a number is a number.
 
  NaN is not equal to any value, including itself.
+
+ Strings are immutable.
+
+ #### Statements
+ A compilation unit contains a set of executable statements. A block is a set of statements wrapped in curly braces. "Unlike many other languages, blocks in JavaScript do not create a new scope, so variables should be defined at the top of the function, not in blocks."
+
+ The return statement causes the early return from a function. It can also specify the value to be returned.
+
+ The break statement causes the exit from a loop statement for switch statement.
